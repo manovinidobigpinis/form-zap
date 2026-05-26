@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.tudin{
+    background-color: gainsboro;
+    width: 550px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border: solid 10px whitesmoke;
+    border-radius: 10px;
+}
+.form{
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-direction: column;
+}
+input{
+    font-size: large;
+    border-radius: 4px;
+    border: solid 1px ;
+    padding: 10px;
+}
+p{  
+    background-color: white;
+    border-radius: 4px;
+    height: 70px;
+    width: 500px;
+    font-size: larger;
+    text-align: center;
+}
+.inicio{
+    display: flex;
+    gap: 20px;
+    border: none;
+    background-color: rgb(0, 156, 0);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    min-width: 500px;
+}
+button{
+    font-size: 20px;
+    border: none;
+    background-color: rgb(0, 156, 0);
+    color: white;
+    border-radius: 10px;
+    min-width: 500px;
+    padding: 20px;
+}
